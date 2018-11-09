@@ -1,0 +1,59 @@
+{
+  "name": "El Garage",
+  "author": "Javier Rizzo",
+  "version": "1.0.0",
+  "keywords": [
+    "garage",
+    "maker",
+    "STEAM",
+    "makerspace",
+    "mexicali"
+  ],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "El Garage",
+    "uuid": "e61057ba-d530-4ceb-a033-0435415642de",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_XOLONIUM_35",
+          "file": "fonts/xolonium.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_XOLONIUM_15",
+          "file": "fonts/xolonium.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "bitmap",
+          "name": "ELGARAGE",
+          "file": "images/elgarage.png"
+        },
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/icon.png"
+        }
+      ]
+    }
+  }
+}
